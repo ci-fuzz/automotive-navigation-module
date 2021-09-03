@@ -2,9 +2,9 @@ name: CI Fuzz
 
 on:
   push:
-    branches: [ master ]
+    branches: [ master,main ]
   pull_request:
-    branches: [ master ]
+    branches: [ master,main ]
 
 env:
   FUZZING_SERVER_ADDRESS: 'app.fuzz.ci:6773'
