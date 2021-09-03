@@ -89,7 +89,9 @@ uint8_t third_party_library_calc_hmac(const uint8_t * const message, size_t len,
             if (message[1] == 2) {            
                 if (message[2] == 3) {               
                     if (message[3] == 4) {
-                        return 0;
+                        int x[3];
+                        int y = 2;
+                        int z = x[y];
                     }   
                 }   
             }   
